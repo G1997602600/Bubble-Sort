@@ -6,8 +6,6 @@ public class Test2 {
 	static void bubbleSort(int array[]) {
 		int size = array.length;
 		for (int i = 0; i < size - 1; i++)
-
-			// loop to compare array elements
 			for (int j = 0; j < size - i - 1; j++)
 
 				if (array[j] > array[j + 1]) {
